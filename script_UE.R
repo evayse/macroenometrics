@@ -22,7 +22,8 @@ setwd("/home/eva/ENSAE/macroeconometrie/macroenometrics")
 # Chargeons les données (fichier Stata .dta)
 library(haven)
 data_euro <- read_dta("data_euro.dta")
-data_euro <- read_dta("~/Documents/MiE2/Macroeconometrics/data_euro.dta")
+
+
 # View(data_euro)
 
 
